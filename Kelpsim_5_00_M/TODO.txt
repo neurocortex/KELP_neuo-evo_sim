@@ -1,0 +1,75 @@
+	    ~|~|~ Kelpsim to-do list ~|~|~
+
+
+	URGENT TASKS:
+
+
++add sim statistics state = DONE
+  ^-add 'sim has run for (X) steps' counter = DONE
+  ^-add 'sim has run for (Y) time' counter = DONE (roughly)
+  ^-average connections per agent = DONE
+  ^-average neurons per agent = DONE
+  ^-total # agents to live = DONE
+  ^-current # agents alive = DONE
+  ^-average outgoing connections per neuron
+  ^-average incoming connections per neuron
+  ^-other connectivity stat averages(???)
+  ^-display slected agent's NN
+   ^-connections in NN = DONE
+   ^-neurons in NN = DONE
+   ^-average outgoing connections per neuron
+   ^-average incoming connections per neuron = DONE
+   ^-view of NN = DONE
+   ^-other connectivity stats(???)
+
+
++allow for agents to be selected for in-depth stats = DONE
+
+
++allow for display of saved NN's
+   ^-update NN display program to allow viewing of saved NN's
+
+
++save Agent stats/NN in Agent.die()
+
+
+
+	non urgent tasks:
+
++add 'strechy' phenotype
+
++apply hebian learning
+
+
+
+
+	Finished tasks!
+
++create agent bodies
++create food bodies
++switch to fisica
++attach sensors for agent vsion
+   ^-make sensors not colide with themselves
++add input/output neurons
++create Agent.sense()
++create Agent.move()
++create NN.step()
+   ^-add activation function/associated logic
++fixed the bloody collision so they can eat properly
++fix program breaking when new agents are born
+   ^-investigate
++create Agent.sense()
+   ^-add input neurons
+    ^-drive activation via input sensors collision
++fix program breaking when new agents are born
++create Agent.move()
+   ^-add output neurons
+    ^-use activation to drive movement
++program state navigation (menu/simulation/statistics)
++create intro menu
+   ^-add control descriptions to menu
+   ^-add option for 'metabolic pressure vs none'
+   ^-add 'pause sim' option
++add tanH activation function
++update agent network display to reflect weight values
++increase falling nutrient variety (size/energy value)

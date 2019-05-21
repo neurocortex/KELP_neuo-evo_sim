@@ -1,0 +1,24 @@
+
+
+Behavioral speciation:
+
+	16/4
+	As of a version of kelp that supports stable agent creation is in place. While tools to analyze the underlying neuroevolutionary systems being created are not yet present, the behavioral adaptation of agents to their environment can be observed.
+	Initially a wide variety of (crude) behavioral types could be observed, allowing agents to be broadly classified according to how they act, usually based primiarily on the movent action that they primarily express :
+	  -Spinners: some agents simply spin, drifting (due to gravity) towards the bottom of the tank.
+	  -Wallhuggers: agents that prefer to stay flush with one or the other side walls of the simulation.
+	  -Tophuggers: much like their wallhugging cousins, tophuggers stick close to the upper bound of the simulation space.
+	  -Lazy: agents that do not move, only aquiring food by luck or the actions of other agents
+
+	Each of these types seems capable of evolving slightly more complex behaivoral patterns:
+	  -Birth leap: some agents will spontaniously leap upwards when born, then devolve into their primairy behavior (spinning, et c&) for the remainder of their life
+	  -Hopping: rarely, particular agents will periodically 'hop' off of the surface they are nearest periodically or in response to some stimuli
+	  -Freezing: some agents (wall/tophuggers only thus far) will halt their movement whenever they encounter stimuli (on a particular whisker or a combination of them) and continue moving when the stimuli is no longer present. This can also happen the reverse way: agents that only move when stimuli is present, but not when none is (rarer variant). This variant has not been observed in spinners, for whatever reason.
+
+	After running the simulation in this form for ~9h only spinners and one tenactious lineage of L-wallhuggers are still present. Hopping does not seem to be evidenct in any lineage, however birth leaps are very common. Due to the lack of wall/tophuggers no freezing is present either.
+
+	17/4
+	Ongoing changes to Kelp continue, this settings modification seems to enable some behaviors that were not present in prior simulation settings. In particular, a new behavioral type is present:
+	-Bungies: agents that idle near the simulation's upper bounds, drifting downwards for a durration before 'bouncing' back up to the upper bound, eating any food that has accumulated between them and the roof in the process. Bungies sometimes exibit a birth leap while others do not, this does not seem to affect their behavior as bungies. Bungies are noted to be much more sucessful than prior variants, breeding much faster than any prior observed variant. It is theorized that this is because they spend a greater amount of time in the middle of
+	-Sweepers: these agents oscilate back and forth across simspace horozontally with varying degrees of complexity. Some lineages in particular exibited freezing and reversing in direction when encountering many symltanious stimuli (such as a wall, but many other agents/food often triggers as well), and the integration of ocasional vertical hopping.
+	-Floaters: floaters seem to have mastered the ability to stay relatively stationary suspended in the simulation's central area. This is often augmented with marginal L-R or U-D darting movement or spinning.
